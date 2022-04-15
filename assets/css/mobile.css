@@ -50,6 +50,10 @@
         justify-content: center;
     }
 
+    .home .img img{
+        width: 300px;
+    }
+
     .about{
         padding-left: 30px;
         padding-right: 30px;
