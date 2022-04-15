@@ -1,0 +1,118 @@
+@media screen and (max-width: 555px) {
+
+    header h1{
+        text-align: center;
+        float: none;
+    }
+
+    header ul{
+        display: none;
+    }
+
+    .home{
+        flex-direction: column;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .home .welcome{
+        width: 100%;
+    }
+
+    .welcome h1{
+        margin-top: 80px;
+    }
+
+    .home .img{
+        width: 100%;
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .about{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .about .me{
+        flex-direction: column;
+    }
+
+    .me .desc,
+    .me .img{
+        width: 100%;
+    }
+
+    .me .desc{
+        margin-top: 20px;
+    }
+
+    .bio{
+        flex-direction: column;
+    }
+
+    .bio .kanan,
+    .bio .kiri{
+        width: 100%;
+    }
+
+    .bio h3{
+        margin-top: 5px;
+    }
+
+    .education{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .portfolio{
+        padding-left: 30px;
+        /* padding-right: 30px; */
+        margin-left: 0px;
+    }
+
+    .portfolio .ports{
+        margin-top: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .ports .port{
+        width: 100%;
+        margin-bottom: 30px;
+        background-color: #191919;
+        padding: 15px;
+        display: flex;
+        /* flex-wrap: wrap; */
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .buttons{
+        width: 100%;
+        margin-top: 10px;
+        text-align: right;
+    }
+
+    .contact{
+    padding-left: 30px;
+    padding-right: 30px;
+    }
+
+    .sosmed{
+        flex-wrap: wrap;
+    }
+
+    .sosmed a{
+        width: 20%;
+    }
+
+body{
+    overflow-x: hidden;
+}
+    
+}

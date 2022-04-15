@@ -1,0 +1,326 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-track {
+background: #191919; 
+}
+
+::-webkit-scrollbar-thumb {
+background: #888; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+background: #555; 
+}
+
+@font-face {
+    font-family: 'FuturaLight';
+    src: url('../font/FuturaPTLight.otf');
+}
+
+@font-face {
+    font-family: 'FuturaMedium';
+    src: url('../font/FuturaPTMedium.otf');
+}
+
+.font1{
+    font-family: 'FuturaLight';
+}
+
+.font2{
+    font-family: 'FuturaMedium';
+}
+
+header{
+    width: 100%;
+    background-color: #f5f5f5;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+header h1{
+    float: left;
+    margin: 10px;
+    margin-left: 50px;
+}
+
+header h1 a{
+    text-decoration: none;
+    color: #191919;
+}
+
+header ul{
+    float: right;
+    margin-top: 20px;
+}
+
+header ul li{
+    float: left;
+    list-style: none;
+    margin-right: 30px;
+}
+
+header ul li a{
+    text-decoration: none;
+    margin-right: 30px;
+    color: #191919;
+    font-weight: bold;
+}
+
+.container{
+    margin-top: 62px;
+}
+
+.home{
+    display: flex;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.home .welcome{
+    width: 50%;
+}
+
+.welcome h1{
+    margin-top: 200px;
+    letter-spacing: 10px;
+}
+
+.welcome h2{
+    letter-spacing: 5px;
+}
+
+.welcome h1 , .welcome h2{
+    margin-left: 150px;
+}
+
+.home .img{
+    width: 50%;
+    margin-top: 50px;
+    padding-bottom: 100px;
+}
+
+.home .img img{
+    width: 500px;
+}
+
+.about{
+    background-color: #191919;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.about .me{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.me .img{
+    width: 30%;
+}
+
+.me .img img{
+    width: 100%;
+}
+
+.me .desc{
+    width: 60%;
+    margin-left: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.desc h1{
+    color: #fff;
+}
+
+.desc h3{
+    color: #fff;
+    margin-top: 10px;
+    font-weight: normal;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+.about .profile{
+    background-color: #fff;
+    padding: 30px;
+}
+
+.profile .bio{
+    display: flex;
+}
+
+.profile h1{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.bio h3{
+    font-size: 30px;
+}
+
+.bio .kanan, .bio .kiri{
+    width: 50%;
+}
+
+.education{
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.education .riwayat{
+    background-color: #191919;
+    padding: 30px;
+    color: #fff;
+}
+
+.education h1{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.riwayat h3{
+    font-size: 30px;
+}
+
+.riwayat .tahun{
+    margin-top: 20px;
+}
+
+.portfolio{
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.portfolio h1{
+    font-size: 40px;
+    margin-left: 30px;
+}
+
+.portfolio .ports{
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.ports .port{
+    width: 45%;
+    margin-bottom: 30px;
+    background-color: #191919;
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.port img{
+    width: 100%;
+}
+
+.port h2{
+    color: #fff;
+    margin-top: 10px;
+}
+
+.buttons{
+    width: 30%;
+    margin-top: 10px;
+    text-align: right;
+}
+
+.btn{
+    background-color: #fff;
+    color: #191919;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.contact{
+    padding-left: 60px;
+    padding-right: 60px;
+    background-color: #191919;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.contact .form{
+    background-color: #fff;
+    padding: 30px;
+}
+
+.contact form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.contact label,
+.contact input,
+.contact textarea{
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.contact input{
+    border: 1px solid #191919;
+}
+
+*:focus{
+    outline: none;
+}
+
+.contact .btn{
+    background-color: #191919;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    width: auto;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.sosmed{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.sosmed a{
+    text-decoration: none;
+    color: #191919;
+    background-color: #fff;
+    padding: 10px 40px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.footer{
+    text-align: center;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.footer h2{
+    letter-spacing: 3px;
+}
